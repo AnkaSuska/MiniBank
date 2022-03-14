@@ -44,6 +44,15 @@ public class Account {
     }
 
     public void showAccount() {
-        System.out.println( " Numer twojego konta to: " + accountNumber +" Twoje imie to" +accountName + " Twoje nazwisko to: " +accountSurname  + " Twoj balans to: "+balance );
+        System.out.println(" Numer twojego konta to: " + accountNumber + " Twoje imie to" + accountName + " Twoje nazwisko to: " + accountSurname + " Twoj balans to: " + balance);
+    }
+
+    public boolean search(int accountNumber) {
+        if (this.accountNumber == accountNumber) {
+            return true;
+        }
+        return false;
+
     }
 }
+
