@@ -14,7 +14,7 @@ public class Main {
 
         tableOfNewAccounts[i]=new Account();
         tableOfNewAccounts[i].openAccount();
-
+        tableOfNewAccounts[i].showAccount();
     }
 
     }
