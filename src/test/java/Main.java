@@ -3,7 +3,10 @@ public class Main {
 
             Account user2 = new Account();
             user2.openAccount();
+            user2.showAccount();
+
+    }
 
 
     }
-}
+
